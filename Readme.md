@@ -247,7 +247,7 @@ Event
 """
 ```
 
-`b` is now tracked by hypothesis `3` leading to a track switch. Note, although a pairing `(a, 3)` with cost less than 0.6 is possible, the algorithm prefers prefers to continue track assignments from past frames which is a property of MOT metrics. 
+`b` is now tracked by hypothesis `3` leading to a track switch. Note, although a pairing `(a, 3)` with cost less than 0.6 is possible, the algorithm prefers to continue track assignments from past frames which is a property of MOT metrics. 
 
 #### Computing metrics
 Once the accumulator has been populated you can compute and display metrics. Continuing the example from above
